@@ -1,1 +1,6 @@
-
+compile_version=017-GIT
+url="https://archive.xfce.org/src/apps/xfce4-screenshooter/1.8/xfce4-screenshooter-1.8.99.tar.bz2"
+file_size=511815
+file_md5=5bfae921507a482943e471b1a680b2b9
+dir='xfce4-screenshooter-1.8.99'
+recipe_type=configure
