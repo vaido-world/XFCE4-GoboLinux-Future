@@ -7,3 +7,6 @@ MakeRecipe XFCE4-Terminal 0.6.92 https://archive.xfce.org/src/apps/xfce4-termina
 Compile XFCE4-Terminal
 CreatePackage XFCE4-Terminal
 ```
+
+## For users
+`InstallPackage XFCE4-Terminal 0.6.92`
