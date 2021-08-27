@@ -13,7 +13,7 @@ https://download-fallback.gnome.org/sources/vte/0.57/
 
 ```
 # VTE Recipe was based of 0.60 version
-# VTE needs to be with vala disable flag
+# VTE Recipe needs to be with vala disable flag to Compile
 # VTE needs adjustment in the Recipe (change the dir version).
 MakeRecipe VTE 0.57.90 https://download-fallback.gnome.org/sources/vte/0.57/vte-0.57.90.tar.xz
 Compile VTE 0.57.90
