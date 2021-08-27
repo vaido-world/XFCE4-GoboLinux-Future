@@ -13,7 +13,7 @@ curl vaido.world/gobo/unionfs.bash | bash
 InstallPackage --same "remove" "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2"
 Compile DBus-GLib
 Compile dbus
-cp -rf -R /Data/Compile/Sources/dbus-1.12.16/dbus /usr/include/dbus-1.0
+'cp' -rf -R /Data/Compile/Sources/dbus-1.12.16/dbus /usr/include/dbus-1.0 
 Compile GVFS
 
 ```
