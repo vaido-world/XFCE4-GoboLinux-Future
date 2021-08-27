@@ -37,6 +37,30 @@ Compile: DBus-GLib 0.110 - Build process failed.
 
 ```
 
+```
+  131 |    _g_dbus_message_iter_append_cstring (&obj_struct_iter, path);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |    dbus_message_iter_append_basic
+gvfsdaemonprotocol.c: In function ‘_g_dbus_get_file_attribute’:
+gvfsdaemonprotocol.c:433:8: warning: implicit declaration of function ‘_g_dbus_message_iter_get_args’; did you mean ‘g_dbus_message_get_arg0’? [-Wimplicit-function-declaration]
+  433 |    if (_g_dbus_message_iter_get_args (&obj_iter,
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |        g_dbus_message_get_arg0
+gvfsdaemonprotocol.c:447:11: error: ‘G_DBUS_TYPE_CSTRING’ undeclared (first use in this function); did you mean ‘DBUS_TYPE_STRING’?
+  447 |           G_DBUS_TYPE_CSTRING, &str,
+      |           ^~~~~~~~~~~~~~~~~~~
+      |           DBUS_TYPE_STRING
+gvfsdaemonprotocol.c:447:11: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [Makefile:378: gvfsdaemonprotocol.lo] Error 1
+make[2]: Leaving directory '/Data/Compile/Sources/gvfs-1.0.2/common'
+make[1]: *** [Makefile:353: all-recursive] Error 1
+make[1]: Leaving directory '/Data/Compile/Sources/gvfs-1.0.2'
+make: *** [Makefile:283: all] Error 2
+Compile: GVFS 1.0.2 - Build process failed.
+root@LiveCD ~]
+
+```
+
 
 
 ```
