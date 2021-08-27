@@ -1,0 +1,7 @@
+# Recipe (MakeRecipe) for XFCE4-Terminal by Philip Pokarowski, on Wed 22 Jul 2020 01:55:24 AM CEST
+compile_version=017-GIT
+url="https://archive.xfce.org/src/apps/xfce4-terminal/0.6/xfce4-terminal-0.6.92.tar.bz2"
+file_size=854899
+file_md5=4b8c2078c5a7b51c1310c4c64fa4aaeb
+dir='xfce4-terminal-0.6.9'
+recipe_type=configure
