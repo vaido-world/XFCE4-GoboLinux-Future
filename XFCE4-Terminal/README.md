@@ -29,3 +29,6 @@ CreatePackage XFCE4-Terminal
 InstallPackage VTE 0.57.90
 InstallPackage XFCE4-Terminal 0.6.92
 ```
+
+![image](https://user-images.githubusercontent.com/21064622/131113561-b90e0aa5-9eff-432e-addd-3d999f20a81c.png)
+
