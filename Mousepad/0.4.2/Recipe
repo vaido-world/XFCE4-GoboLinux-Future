@@ -1,0 +1,9 @@
+# Recipe (MakeRecipe) for Mousepad by Jonas Karlsson <jonka750@student.liu.se>, on Fri Jun 2 23:20:44 CEST 2006
+compile_version=1.8.2
+url="https://archive.xfce.org/src/apps/mousepad/0.4/mousepad-0.4.2.tar.bz2"
+file_size=696014
+file_md5=98d908842d4a93c35756a67d681c08fe
+recipe_type=configure
+configure_options=(
+    '--enable-debug=no'
+)
