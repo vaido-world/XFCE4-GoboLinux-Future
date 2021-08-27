@@ -17,7 +17,7 @@ https://download-fallback.gnome.org/sources/vte/0.57/
 # VTE needs adjustment in the Recipe (change the dir version).
 MakeRecipe VTE 0.57.90 https://download-fallback.gnome.org/sources/vte/0.57/vte-0.57.90.tar.xz
 Compile VTE 0.57.90
-CreatePackage VTE
+CreatePackage /Programs/VTE
 
 MakeRecipe XFCE4-Terminal 0.6.92 https://archive.xfce.org/src/apps/xfce4-terminal/0.6/xfce4-terminal-0.6.92.tar.bz2
 Compile XFCE4-Terminal
