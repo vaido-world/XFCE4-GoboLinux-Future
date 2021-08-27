@@ -61,6 +61,12 @@ root@LiveCD ~]
 
 ```
 
+```
+Compile glib
+/usr/lib/dbus-1.0/include: No such file or directory [-Werror=missing-include-dirs]
+
+```
+
 
 
 ```
