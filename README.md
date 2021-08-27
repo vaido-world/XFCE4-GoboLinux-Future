@@ -7,6 +7,12 @@ https://archive.xfce.org/src/thunar-plugins/
 ## Desktop and Thunar
 Trash icon is missing.
 Maybe Installing gvfs would resolve this.
+```
+Compile DBus-GLib
+Compile GVFS
+```
+
+https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e0b/GVFS/1.0.2/Resources/Dependencies#L4
 
 
 ## TODO
