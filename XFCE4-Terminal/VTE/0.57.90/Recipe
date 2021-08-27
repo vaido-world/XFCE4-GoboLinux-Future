@@ -1,0 +1,11 @@
+# Recipe (MakeRecipe) for VTE by Philip Pokarowski, on Wed 22 Jul 2020 01:58:17 AM CEST
+compile_version=017-GIT
+url="https://download-fallback.gnome.org/sources/vte/0.57/vte-0.57.90.tar.xz"
+file_size=514412
+file_md5=722d8501111a528e3f11b8dfe4193004
+dir='vte-0.57.90'
+recipe_type=meson
+meson_variables=(
+        "-D_systemd=false"
+        "-Dvapi=false"
+      )
