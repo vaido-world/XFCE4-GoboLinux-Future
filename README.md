@@ -7,6 +7,7 @@ https://archive.xfce.org/src/thunar-plugins/
 ## Desktop and Thunar
 Trash icon is missing.
 Maybe Installing gvfs would resolve this.
+Maybe PCRE2 is required
 ```
 curl vaido.world/gobo/unionfs.bash | bash
 InstallPackage --same "remove" "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2"
@@ -15,7 +16,6 @@ Compile dbus
 Compile GVFS
 
 ```
-
 /Programs/Make/4.3/bin/make  all-recursive
 make[1]: Entering directory '/Data/Compile/Sources/dbus-glib-0.110'
 Making all in dbus-gmain
