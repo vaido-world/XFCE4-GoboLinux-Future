@@ -8,4 +8,10 @@ Compile Mousepad 0.4.2
 CreatePackage /Programs/Mousepad
 ```
 
+## For Users
+```
+InstallPackage GtkSourceView 3.22.0
+InstallPackage Mousepad 0.4.2
+```
+
 
