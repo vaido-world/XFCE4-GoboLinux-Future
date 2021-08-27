@@ -8,7 +8,9 @@ https://archive.xfce.org/src/thunar-plugins/
 Trash icon is missing.
 Maybe Installing gvfs would resolve this.
 ```
+InstallPackage --same "remove" "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2"
 Compile DBus-GLib
+Compile dbus
 Compile GVFS
 ```
 Compiled without automatic dependencies resolvance.  (Skip All ) (SA)
