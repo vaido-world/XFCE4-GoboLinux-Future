@@ -25,4 +25,7 @@ CreatePackage XFCE4-Terminal
 ```
 
 ## For users
-`InstallPackage XFCE4-Terminal 0.6.92`
+```
+InstallPackage VTE 0.57.90
+InstallPackage XFCE4-Terminal 0.6.92
+```
