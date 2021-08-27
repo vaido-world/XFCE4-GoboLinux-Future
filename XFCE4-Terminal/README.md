@@ -15,6 +15,7 @@ https://download-fallback.gnome.org/sources/vte/0.57/
 MakeRecipe VTE 0.57 https://download-fallback.gnome.org/sources/vte/0.57/vte-0.57.90.tar.xz
 Compile VTE 0.57
 CreatePackage VTE
+
 MakeRecipe XFCE4-Terminal 0.6.92 https://archive.xfce.org/src/apps/xfce4-terminal/0.6/xfce4-terminal-0.6.92.tar.bz2
 Compile XFCE4-Terminal
 CreatePackage XFCE4-Terminal
