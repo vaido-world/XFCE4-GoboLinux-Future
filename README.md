@@ -11,7 +11,7 @@ Maybe Installing gvfs would resolve this.
 Compile DBus-GLib
 Compile GVFS
 ```
-Compiled without automatic dependencies resolvance.  
+Compiled without automatic dependencies resolvance.  (Skip All SA)
 https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e0b/GVFS/1.0.2/Resources/Dependencies#L4
 
 
