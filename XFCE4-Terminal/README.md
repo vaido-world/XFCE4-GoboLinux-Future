@@ -21,7 +21,7 @@ CreatePackage VTE
 
 MakeRecipe XFCE4-Terminal 0.6.92 https://archive.xfce.org/src/apps/xfce4-terminal/0.6/xfce4-terminal-0.6.92.tar.bz2
 Compile XFCE4-Terminal
-CreatePackage XFCE4-Terminal
+CreatePackage /Programs/XFCE4-Terminal
 ```
 
 ## For users
