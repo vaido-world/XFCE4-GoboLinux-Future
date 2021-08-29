@@ -18,6 +18,8 @@ Compile GVFS
 ```
 
 # Glib
+
+## Compile
 ```
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
@@ -26,7 +28,10 @@ Compile glib
 CreatePackage GLib
 ```
 
-
+## Use 
+```
+InstallPackage --same https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/GLib--2.63.5--x86_64.tar.bz2
+```
 
 
 ```
