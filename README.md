@@ -1,4 +1,5 @@
 # XFCE4-GoboLinux-Future
+![image](https://user-images.githubusercontent.com/21064622/131251743-094a53be-fdaa-4376-a07d-e062d63cc126.png)
 
 ## Thunar Plugins
 https://docs.xfce.org/xfce/thunar/archive  
