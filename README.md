@@ -21,9 +21,9 @@ Compile GVFS
 
 Source Code: https://gitlab.gnome.org/GNOME/glib/-/releases
 Latest Stable Release: 2.68.4 
+
 ```
 MakeRecipe "GLib" "2.68.4" "https://gitlab.gnome.org/GNOME/glib/-/archive/2.68.4/glib-2.68.4.tar.bz2"
-
 ```.
 
 ## Compile
