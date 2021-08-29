@@ -22,6 +22,21 @@ Compile GVFS
 Source Code: https://gitlab.gnome.org/GNOME/glib/-/releases
 Latest Stable Release: 2.68.4 
 
+Current error
+```
+ File "/Programs/Python/3.8.1/lib/python3.8/os.py", line 221, in makedirs
+    mkdir(name, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/include/glib-2.0/gobject'
+FAILED: meson-install 
+/System/Aliens/PIP/3.8/bin/meson install --no-rebuild
+ninja: build stopped: subcommand failed.
+UnionSandbox: Cleaning up.
+UnionSandbox: Moving entries to: /Programs/GLib/2.68.4/.SandboxInstall_Root
+Compile: Installation was moved to /Programs/GLib/2.68.4-failed
+Compile: GLib 2.68.4 - Installation failed
+root@LiveCD ~]
+
+```
 
 
 ```
