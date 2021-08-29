@@ -34,6 +34,8 @@ InstallPackage --same https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/
 ```
 
 
+# GVfs errors
+
 ```
 /Programs/Make/4.3/bin/make  all-recursive
 make[1]: Entering directory '/Data/Compile/Sources/dbus-glib-0.110'
