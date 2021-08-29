@@ -40,6 +40,11 @@ root@LiveCD ~]
 
 
 ```
+CFLAGS=`pkg-config --cflags glib-2.0`   
+LDLIBS=`pkg-config --libs glib-2.0`
+```
+
+```
 MakeRecipe "GLib" "2.68.4" "https://gitlab.gnome.org/GNOME/glib/-/archive/2.68.4/glib-2.68.4.tar.bz2"
 Compile "GLib"
 ```.
