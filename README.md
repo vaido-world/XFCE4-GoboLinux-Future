@@ -19,6 +19,13 @@ Compile GVFS
 
 # Glib
 
+Source Code: https://gitlab.gnome.org/GNOME/glib/-/releases
+Latest Stable Release: 2.68.4 
+```
+MakeRecipe "GLib" "2.68.4" "https://gitlab.gnome.org/GNOME/glib/-/archive/2.68.4/glib-2.68.4.tar.bz2"
+
+```.
+
 ## Compile
 ```
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
