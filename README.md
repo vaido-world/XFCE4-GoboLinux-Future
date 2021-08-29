@@ -22,8 +22,11 @@ Compile GVFS
 Source Code: https://gitlab.gnome.org/GNOME/glib/-/releases
 Latest Stable Release: 2.68.4 
 
+
+
 ```
 MakeRecipe "GLib" "2.68.4" "https://gitlab.gnome.org/GNOME/glib/-/archive/2.68.4/glib-2.68.4.tar.bz2"
+Compile "GLib"
 ```.
 
 ## Compile
@@ -36,19 +39,20 @@ CreatePackage GLib
 ```
 
 ## Use 
-```
+
 InstallPackage --same https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/GLib--2.63.5--x86_64.tar.bz2
-```
+
 
 # Dbus
 ## Compile
+
 ```
 Compile dbus
 ```
 
 ## Use
 ```
-
+InstallPackage
 ```
 
 # GVfs errors
