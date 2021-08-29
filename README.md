@@ -37,6 +37,10 @@ Compile: GLib 2.68.4 - Installation failed
 root@LiveCD ~]
 
 ```
+## There is probably a missing 
+https://packages.debian.org/sid/sh4/libglib2.0-dev/filelist
+
+
 
 
 ```
