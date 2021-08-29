@@ -33,6 +33,16 @@ CreatePackage GLib
 InstallPackage --same https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/GLib--2.63.5--x86_64.tar.bz2
 ```
 
+# Dbus
+## Compile
+```
+Compile dbus
+```
+
+## Use
+```
+
+```
 
 # GVfs errors
 
