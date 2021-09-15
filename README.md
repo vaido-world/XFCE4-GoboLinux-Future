@@ -145,3 +145,7 @@ https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e
 ~~Replace mv with tar -C in the installation script for GoboLinux 17 Live CD~~ Done  
 Remember to compile and install libinput for better hardware support such as mouse.  
 Remember to install package to restore default XFCE hicons and a cursor. 
+
+
+
+![image](https://user-images.githubusercontent.com/21064622/133430490-57e90e89-b989-4d6c-ada9-57a84c6581e4.png)
